@@ -8,4 +8,67 @@
         tools:context=".MainActivity">
 
 
+    <LinearLayout
+            android:id="@+id/mainLayout"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="1dp" android:layout_marginBottom="1dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp">
+        <TextView
+                android:text="Start Chant"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtStartChant"/>
+        <TextView
+                android:text="FileName1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtFileName1"/>
+        <Button
+                android:text="Choose File 1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnChooseFile1"/>
+        <TextView
+                android:text="Meditation Time"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/txtPauseTime"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="time"
+                android:ems="10"
+                android:id="@+id/edtTime"/>
+        <TextView
+                android:text="End Chant"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEndChant"/>
+        <TextView
+                android:text="FileName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/txtFileName2"/>
+        <Button
+                android:text="Choose File 2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnChooseFile2"/>
+        <Button
+                android:text="Start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnStart"/>
+        <Button
+                android:text="Stop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnStop"/>
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

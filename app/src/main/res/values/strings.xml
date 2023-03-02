@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Meditaction Guide</string>
+    <string name="btnChooseFile1">Choose Start Chant</string>
+    <string name="txtPauseTime">Silent Meditation Time</string>
+    <string name="edtPauseTime">01:00</string>
+    <string name="btnChooseFile2">Choose End Chant</string>
+    <string name="btnStart">Start</string>
+    <string name="btnStop">Stop</string>
 </resources>
